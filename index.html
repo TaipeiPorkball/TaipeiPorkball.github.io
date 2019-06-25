@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="css/index.css" type="text/css">
+
+
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/script.js"></script>
+
+  <title>一對一客服諮詢</title>
+
+</head>
+
+<body>
+  <div class="place">
+    <form action="https://script.google.com/macros/s/AKfycbzzCzcynSz7WxgbAhYr5zGFX_vbkMnpvo1uwIDtbA/exec" method="POST" class="form">
+      <p class="first">
+        回報單填寫送出後，將按照建單時間依序處理，客服回覆後系統會自動寄出通知信至註冊信箱，還請您耐心等候，如要查詢案件進度與回覆內容，請從「回報單記錄」查閱。<br><br>
+        為了迅速處理您的案件，請勿重複填單哦！回報單欄位請確實詳細填寫，以便我們協助您處理，處理時間因回報單內容而有所不同，還請您耐心等候！<br><br>
+        於客服回覆後，若是超過一個月仍未收到您的回應，系統將會自動結案。已解決、結案的回報單無法再做回應，若有任何疑問請重新填單，感謝您的配合！<br><br>
+        對於本回報系統使用時，若所發表的內容所含字句結合後具攻擊、不雅、猥褻之意，或涉及對本公司（及所屬員工）進行騷擾、誹謗、言論攻擊，或影響客服中心作業者。 第一次給予勸導；第二次所使用帳號停權三日；第三次所使用帳號停權七日；第四次（含四次以上）所使用帳號則永久封鎖停權。</p>
+      <p class="top">您的名字</p>
+      <p class="warning green clear">※此為選填選項，您不一定要填寫。</p>
+      <input type="text" placeholder="Your Name" name="user" class="name-input">
+
+      <p>您的會員ID</p>
+      <p class="warning clear">※此為必填選項，請如實填寫，否則後果自負。</p>
+      <input type="text" placeholder="Your ID" name="email" class="email-input" required>
+
+      <p>您的E-mail</p>
+      <p class="warning green clear">※此為選填選項，您不一定要填寫。</p>
+      <input type="text" placeholder="Your E-mail" name="digital" class="phone-input">
+
+      <p>您的問題類型</p>
+      <p class="warning clear">※此為必填選項，請依照您的問題類型進行分類，未選擇分類的話將不會優先處理。</p>
+      <select name="Qtype">
+        <option value="未分類">---------------------------------------------------------------------------------------------</option>
+        　<option value="帳號安全">帳號安全</option>
+        　<option value="活動問題">活動問題</option>
+        　<option value="遊戲Bug回報">遊戲Bug回報</option>
+        　<option value="惡劣行為回報">惡劣行為回報</option>
+      </select>
+
+      <p>您的問題詳述</p>
+      <p class="warning green clear">※此為選填選項，您不一定要填寫，不過如果填寫的話，會讓我們比較容易了解您的狀況。</p>
+      <textarea placeholder="Detail Your Problem" name="suggestionTxt" class="phone-input"></textarea>
+
+      <input type="hidden" name="method" value="write">
+      <input type="hidden" name="sheetUrl" value="https://docs.google.com/spreadsheets/d/17EZPrboysle4SQiV-jcM2U79sLS7Qgw5_xPZho3IdTM/edit#gid=0">
+      <input type="hidden" name="sheetTag" value="data">
+
+      <button type="submit">送出</button>
+    </form>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Yuan;
+  src: url("../font/GenJyuuGothic-Normal.ttf");
+}
+
+html {
+  background: url(../img/background-blur-blurred-949587.jpg) no-repeat center top;
+}
+
+.place {
+  width: 60%;
+  height: 1200px;
+  margin-left: 20%;
+  background-color: #FFF;
+  padding-top: 20px;
+  padding-top: 50px;
+}
+
+.first {
+  width: 60%;
+  color: #555555;
+  font-family: Yuan;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.top {
+  margin-top: 30px;
+}
+
+form p {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 10px;
+  font-family: Yuan;
+  float: left;
+}
+
+.warning {
+  width: 60%;
+  float: left;
+  font-size: 12px;
+  color: red;
+}
+
+.green {
+  width: 60%;
+  color: green;
+}
+
+form input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #888888;
+  font-family: Yuan;
+  font-size: 16px;
+  height: 40px;
+  padding: 0 0 0 15px;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  transition: background 1s ease-in-out;
+  width: 60%;
+  float: left;
+  clear: both;
+}
+
+form textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #888888;
+  font-family: Yuan;
+  font-size: 16px;
+  height: 240px;
+  padding: 7px 0 0 15px;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  transition: background 1s ease-in-out;
+  width: 60%;
+  float: left;
+  clear: both;
+}
+
+form select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #888888;
+  font-family: Yuan;
+  font-size: 16px;
+  height: 40px;
+  padding: 0 0 0 15px;
+  margin-left: 20%;
+  margin-bottom: 30px;
+  transition: background 1s ease-in-out;
+  width: 60%;
+  float: left;
+  clear: both;
+}
+
+form button, form div {
+  -webkit-appearance: none;
+  background: rgb(154, 63, 228);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  height: 50px;
+  font-family: Yuan;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 20%;
+  transition: background 0.5s ease-in-out;
+  width: 60%;
+  padding: 0 50px 0 50px;
+  font-weight: bold;
+  float: left;
+  clear: both;
+}
+
+form input:focus, form textarea:focus, form select:focus {
+  outline: none;
+  border-color: rgb(154, 63, 228);
+  box-shadow: 0 0 0px rgb(154, 63, 228);
+}
+
+form button:hover, form div:hover {
+  background: rgba(154, 63, 228, 0.80);
+}
+
+.clear {
+  clear: both;
+}
